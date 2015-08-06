@@ -2,6 +2,9 @@
     "name": "node-api",
     "main": "app.js",
     "private": true,
+    "scripts": {
+        "start": "node app.js"    
+    },
     "dependencies": {
         "express": "~4.0.0",
         "mongoose": "~3.6.13",
