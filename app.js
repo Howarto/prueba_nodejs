@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 // Connection mongoose-mongodb
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds031203.mongolab.com:31203/heroku_c9lt3r0p');
+mongoose.connect('mongodb://test:prueba@ds031203.mongolab.com:31203/heroku_c9lt3r0p');
 var Beach = require('./models/beach');
 
 // configure app to use bodyParser()
